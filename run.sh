@@ -2,6 +2,7 @@
 
 docker run \
   --rm \
+  -it \
   -e PUID=1000 \
   -e PGID=1000 \
   -e TZ \
