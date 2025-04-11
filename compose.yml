@@ -8,8 +8,8 @@ services:
       - TZ
     volumes:
       - ./volumes/beets/config:/config
+      - ./volumes/beets/ingest:/downloads
       - /mnt/nas-music-flac:/music
-      - /mnt/nas-music-ingest:/downloads
     ports:
       - ${CLIENT_IP}:8337:8337
     restart: unless-stopped
