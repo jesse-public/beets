@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-beets import /downloads
+beet import /downloads
 rm -r /downloads/*
